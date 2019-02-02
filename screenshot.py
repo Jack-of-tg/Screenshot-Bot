@@ -25,7 +25,6 @@ with open('____________', 'r') as file:
 		firstLink = file.readline().strip()
 		secondLink = file.readline().strip()
 		thirdLink = file.readline().strip()
-		print(f'{fileName}\n{firstLink}\n{secondLink}{thirdLink}')
 
 		#utilizes selenium gecko webdriver for Firefox
 		driver = webdriver.Firefox(executable_path = r"C:\Users\_________\Desktop\geckodriver.exe")
